@@ -1,0 +1,337 @@
+* {
+	box-sizing: border-box;
+}
+
+.arithm-trainer {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	align-items: flex-start;
+
+	width: 320px;
+	min-height: 500px;
+	margin: 0 auto;
+	padding: 20px;
+
+	background-color: pink;
+}
+
+.title {
+	width: 100%;
+}
+
+.arithm-trainer__operand1,
+.arithm-trainer__operator,
+.arithm-trainer__operand2 {
+	width: 30px;
+	height: 30px;
+	background-color: #ffffff;
+}
+
+.arithm-trainer__your-answer {
+	width: 50px;
+	height: 30px;
+	background-color: #fff;
+}
+
+.wrapper {
+	width: 100%;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+
+.arithm-trainer__right-answers {
+	width: 35%;
+	min-height: 50px;
+
+	background-color: #fce8f8;
+
+	text-align: center;
+	line-height: 50px;
+	font-size: 25px;
+	color: green;
+	font-weight: bold;
+}
+
+.arithm-trainer__wrong-answers {
+	width: 35%;
+	min-height: 50px;
+
+	background-color: #fce8f8;
+
+	text-align: center;
+	line-height: 50px;
+	font-size: 25px;
+	color: red;
+	font-weight: bold;
+}
+
+.arithm-trainer__wrong-answers-list {
+	overflow: auto;
+
+	width: 100%;
+	height: 200px;
+	margin-top: 10px;
+
+	background-color: #fce8f8;
+
+	text-align: left;
+	line-height: 20px;
+	font-size: 15px;
+	color: red;
+	font-weight: bold;
+}
+
+.arithm-trainer__wrong-answers-list p {
+	padding: 0 5px;
+	margin: 5px;
+	border: 1px solid pink;
+	background-color: f2f2f2;
+
+}
+
+.disabled {
+	pointer-events: none;
+
+	opacity: 0.5;
+}
+
+
+
+/*--------------xhr--------------------------------*/
+
+.xhr-block {
+	width: 640px;
+	min-height: 200px;
+	margin: 0 auto;
+	padding: 20px;
+
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	align-items: center;
+
+	background-color: lightgreen;
+}
+
+.xhr-block__recive-content {
+	width: 500px;
+	min-height: 100px;
+
+	background-color: #e8fceb;
+}
+
+.test-form {
+	position: relative;
+
+	width: 800px;
+	margin: 0 auto;
+	padding: 40px;
+
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+
+	background-color: #d6fbff;
+}
+
+.test-form fieldset {
+	margin-bottom: 30px;
+}
+
+[type="reset"] {
+	margin: 10px;
+	margin-top: 20px;
+}
+
+button {
+	margin: 10px;
+}
+
+.server-response {
+	position:absolute;
+	right: 20px;
+	top: 180px;
+
+	width: 500px;
+	height: 250px;
+	background-color: #ffffff;
+	border: 2px solid #289b95;
+}
+
+[type="file"] {
+	margin-top: 50px;
+}
+
+/*----------find min----------------------*/
+
+.find-min {
+	width: 320px;
+	height: 200px;
+	padding: 40px;
+	margin: 0 auto;
+
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	align-items: center;
+
+	background-color: #edb1e5;
+}
+
+.find-min__title {
+	width: 100%;
+	text-align: center;
+	margin-top: 0;
+}
+
+.find-min__first-arg,
+.find-min__second-arg {
+	width: 50%;
+}
+
+.find-min__result {
+	height: 40px;
+	width: 40px;
+
+	background-color: #edd3e9;
+	border: 2px solid #822774;
+}
+
+/*---------x in n -----------------*/
+
+.x-in-n {
+	width: 320px;
+	height: 200px;
+	padding: 40px;
+	margin: 0 auto;
+
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	align-items: center;
+
+	background-color: #e5c885;
+}
+
+.x-in-n__title {
+	width: 100%;
+	text-align: center;
+	margin-top: 0;
+}
+
+.x-in-n__x,
+.x-in-n__n {
+	width: 50%;
+}
+
+.x-in-n__result {
+	height: 40px;
+	width: 40px;
+
+	background-color: #dbcdad;
+	border: 2px solid #8c733a;
+}
+
+/*---------sumN -----------------*/
+
+.sumN {
+	width: 320px;
+	height: 200px;
+	padding: 40px;
+	margin: 0 auto;
+
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	align-items: center;
+
+	background-color: #c3db8c;
+}
+
+.sumN__title {
+	width: 100%;
+	text-align: center;
+	margin-top: 0;
+}
+
+.sumN__n {
+	width: 50%;
+}
+
+.sumN__result {
+	height: 40px;
+	width: 40px;
+
+	background-color: #d7e5b7;
+	border: 2px solid #5d722c;
+}
+
+/*---------factorial -----------------*/
+
+.factorial {
+	width: 320px;
+	height: 200px;
+	padding: 40px;
+	margin: 0 auto;
+
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	align-items: center;
+
+	background-color: #e09aad;
+}
+
+.factorial__title {
+	width: 100%;
+	text-align: center;
+	margin-top: 0;
+}
+
+.factorial__n {
+	width: 50%;
+}
+
+.factorial__result {
+	height: 40px;
+	width: 40px;
+
+	background-color: #e2c7cf;
+	border: 2px solid #822541;
+}
+
+/*---------fibonachi-----------------*/
+
+.fibonachi {
+	width: 320px;
+	height: 200px;
+	padding: 40px;
+	margin: 0 auto;
+
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	align-items: center;
+
+	background-color: #c5a8ed;
+}
+
+.fibonachi__title {
+	width: 100%;
+	text-align: center;
+	margin-top: 0;
+}
+
+.fibonachi__n {
+	width: 50%;
+}
+
+.fibonachi__result {
+	height: 40px;
+	width: 40px;
+
+	background-color: #d8c6ef;
+	border: 2px solid #522b84;
+}

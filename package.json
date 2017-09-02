@@ -1,0 +1,31 @@
+{
+  "name": "learnjavascript",
+  "version": "0.1.0",
+  "description": "my third adaptive layout",
+  "main": "index.js",
+  "dependencies": {},
+  "devDependencies": {
+    "browser-sync": "^2.18.13",
+    "gulp": "^3.9.1",
+    "gulp-less": "^3.3.2"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/matviu/practicejs.git"
+  },
+  "keywords": [
+    "html",
+    "less",
+    "gulp",
+		"js"
+  ],
+  "author": "-",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/matviu/practicejs/issues"
+  },
+  "homepage": "https://github.com/matviu/practicejs#readme"
+}

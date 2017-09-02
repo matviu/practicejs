@@ -1,0 +1,110 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>учебные модули</title>
+	<link rel="stylesheet" href="styles.css">
+	<script src="javascript.js"></script>
+</head>
+<body>
+	<section class="arithm-trainer">
+		<p class="title">Арифметический тренажер</p>
+
+		<div class="arithm-trainer__operand1"></div>
+		<div class="arithm-trainer__operator"></div>
+		<div class="arithm-trainer__operand2"></div>
+
+		<input type="text" name="answer" class="arithm-trainer__your-answer" placeholder="ответ">
+
+		<button type="button" class="arithm-trainer__proceed disabled">далее</button>
+
+		<div class="wrapper">
+			<div class="arithm-trainer__right-answers"></div>
+			<div class="arithm-trainer__wrong-answers"></div>
+			<div class="arithm-trainer__wrong-answers-list"></div>
+		</div>
+
+		<button type="button" class="start-training">запустить арифметический тренажер</button>
+		<button type="button" class="reset-training disabled">остановить арифметический тренажер</button>
+	</section>
+
+	<form action="#" class="test-form">
+		<p>Работа с формой</p>
+		<fieldset>
+			<input type="text" name="login" placeholder="Текст">
+			<input type="text" name="password" placeholder="Пароль">
+			<input type="text" name="tel" placeholder="телефон">
+			<input type="text" name="email" placeholder="емэил">
+			<input type="text" name="count" placeholder="число">
+			<input type="text" name="date" placeholder="дата">
+		</fieldset>
+
+		<fieldset>
+			<input type="radio" name="radio" value="first">
+			<input type="radio" name="radio" value="second">
+			<input type="radio" name="radio" value="third">
+		</fieldset>
+
+		<fieldset>
+			<input type="checkbox" name="option-one">
+			<input type="checkbox" name="option-two">
+			<input type="checkbox" name="option-three">
+		</fieldset>
+
+		<select name="select-field">
+			<option value="select-option-1">опция 1</option>
+			<option value="select-option-2">опция 2</option>
+			<option value="select-option-3">опция 3</option>
+		</select>
+
+		<input type="reset">
+		<button class="send-form" type="submit">отправить данные</button>
+
+		<div class="server-response"></div>
+
+		<input type="file">
+	</form>
+
+	<section class="find-min">
+		<p class="find-min__title">Нахождение минимального числа</p>
+		<input type="text" class="find-min__first-arg">
+		<input type="text" class="find-min__second-arg">
+
+		<div class="find-min__result"></div>
+		<button type="button" class="find-min__btn">Найти минимальное значение</button>
+	</section>
+
+	<section class="x-in-n">
+		<p class="x-in-n__title">Нахождение x в степени n</p>
+		<input type="text" class="x-in-n__x" placeholder="введите х">
+		<input type="text" class="x-in-n__n" placeholder="введите n">
+
+		<div class="x-in-n__result"></div>
+		<button type="button" class="x-in-n__btn">Найти x в степени n</button>
+	</section>
+
+	<section class="sumN">
+		<p class="sumN__title">Нахождение суммы всех чисел до n включиетьно</p>
+		<input type="text" class="sumN__n" placeholder="введите n">
+
+		<div class="sumN__result"></div>
+		<button type="button" class="sumN__btn">Найти сумму всех чисел до n включиетьно</button>
+	</section>
+
+	<section class="factorial">
+		<p class="factorial__title">Нахождение факториала числа n</p>
+		<input type="text" class="factorial__n" placeholder="введите n">
+
+		<div class="factorial__result"></div>
+		<button type="button" class="factorial__btn">Найти факториал числа n</button>
+	</section>
+
+	<section class="fibonachi">
+		<p class="fibonachi__title">Нахождение значения n-ого элемента ряда Фибоначчи</p>
+		<input type="text" class="fibonachi__n" placeholder="введите n">
+
+		<div class="fibonachi__result"></div>
+		<button type="button" class="fibonachi__btn">Найти значение n-ого элемента ряда фибоначчи </button>
+	</section>
+</body>
+</html>
